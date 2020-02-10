@@ -9,3 +9,10 @@ data: function() {
    }
 },
 ```
+
+## コンポーネントからイベントを発火させる
+
+$emitを使用する
+
+【参考】
+https://orizuru.io/blog/vue-js/vue_emit-props/
