@@ -9,10 +9,10 @@
 
 <div id="app">
     <p>ボタンが押された数： {{total}}</p>
-    <like-component message="Like" @increment="incrementTotal"></like-component>
-    <like-component message="Bad" @increment="incrementTotal"></like-component>
-    <like-component message="Great" @increment="incrementTotal"></like-component>
-    <like-component @increment="incrementTotal"></like-component>
+    <btn-component message="Like" @increment="incrementTotal"></btn-component>
+    <btn-component message="Bad" @increment="incrementTotal"></btn-component>
+    <btn-component message="Great" @increment="incrementTotal"></btn-component>
+    <btn-component @increment="incrementTotal"></btn-component>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>

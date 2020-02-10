@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    var likeComponent = Vue.extend({
+    var btnComponent = Vue.extend({
         props: {
             message: {
                 type: String,
@@ -26,7 +26,7 @@
     var app = new Vue({
         el: '#app',
         components: {
-            'like-component': likeComponent
+            'btn-component': btnComponent
         },
         data : {
             total: 0
